@@ -111,13 +111,4 @@
 
 <br/>  
 
-----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
-
-## Top Open Source -
-[![iTasks](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=itasks&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/alsiam/itasks)
-[![urFolio](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=urfolio&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/alsiam/urfolio)
-[![Web Projects](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=web-projects&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/alsiam/web-projects)
-[![Al Siam Readme](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=alsiam&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://github.com/alsiam/alsiam)
-
 
