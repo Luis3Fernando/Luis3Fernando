@@ -1,5 +1,4 @@
-![watercolour-4799196](https://github.com/Luis3Fernando/Luis3Fernando/assets/102707367/5f2386f6-3ece-44ce-9d15-6a6d8019dc28)
-<img align="right" width="350" src="/assets/programmer.gif" alt="Coding gif" />
+<img align="right" height="350" src="./watercolour-4799196.jpg" alt="Background" />
 ## Hi there 👋
 <!--
 <h2 align="center">
