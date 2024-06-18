@@ -25,7 +25,7 @@
 
 <p align="center">
        About me, I am
-               🎓 I am a university student passionate about 🎶 music, 🌌 astronomy, 🔌 electronics, 📐 mathematics, and 💻 programming. My goal is to create and innovate for a new world, combining my knowledge and skills to develop solutions that make a difference. 🚀
+               🎓 a university student passionate about 🎶 music, 🌌 astronomy, 🔌 electronics, 📐 mathematics, and 💻 programming. My goal is to create and innovate for a new world, combining my knowledge and skills to develop solutions that make a difference. 🚀
        
 </p>
 
