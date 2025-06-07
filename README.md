@@ -120,12 +120,12 @@
          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&hide_border=true&layout=donut-vertical&theme=transparent"/>
       </td>
       <td>
-         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Systerant&hide_border=true&theme=transparent"/>
+         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent"/>
       </td>
     </tr>
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=N-Queens-Algorithm-Visual&hide_border=true&theme=transparent"/>
       </td>
     </tr>
   </table>
