@@ -116,23 +116,19 @@
 <div align="center">
   <table style="width: 100%; table-layout: fixed;">
     <tr>
-      <td style="width: 50%; vertical-align: top;">
+      <td style="width: 33.33%; vertical-align: top; padding: 5px;">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
       </td>
-      <td style="width: 50%; vertical-align: top;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=compact&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
+      <td style="width: 33.33%; vertical-align: top; padding: 5px;">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
       </td>
-    </tr>
-    <tr>
-      <td style="width: 50%; vertical-align: top;">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=N-Queens-Algorithm-Visual&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
-      </td>
-      <td style="width: 50%; vertical-align: top;">
-        <!-- Puedes dejar vacío o poner otra cosa -->
+      <td style="width: 33.33%; vertical-align: top; padding: 5px;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
       </td>
     </tr>
   </table>
 </div>
+
 
 
 
