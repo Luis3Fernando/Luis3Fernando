@@ -113,6 +113,11 @@
 </td></tr></table>  
 
 ### Stats  
+<div align="center>
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
+</div>
+
+### Projects interesting  
 <div align="center">
   <table style="width: 100%; table-layout: fixed;">
     <tr>
@@ -123,12 +128,12 @@
       </td>
       <td style="width: 33.33%; vertical-align: top; padding: 5px;">
         <a href="https://github.com/luis3fernando/Luminle" target="_blank" rel="noopener noreferrer">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Curiofy&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
         </a>
       </td>
       <td style="width: 33.33%; vertical-align: top; padding: 5px;">
         <a href="https://github.com/luis3fernando?tab=languages" target="_blank" rel="noopener noreferrer">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Spendly&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
         </a>
       </td>
     </tr>
