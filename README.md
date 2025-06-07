@@ -117,15 +117,15 @@
   <table>
     <tr>
       <td rowspan="2">
-         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent"/>
+         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&hide_border=true&theme=transparent"/>
       </td>
       <td>
-         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Systerant&theme=transparent"/>
+         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Systerant&hide_border=true&theme=transparent"/>
       </td>
     </tr>
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&theme=transparent"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent"/>
       </td>
     </tr>
   </table>
