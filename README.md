@@ -117,21 +117,15 @@
   <table>
     <tr>
       <td rowspan="2">
-        <a href="https://github.com/luis3fernando">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent" style="border: none;" />
-        </a>
+         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent"/>
       </td>
       <td>
-        <a href="https://github.com/luis3fernando/Luminle">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&theme=transparent" style="border: none;" />
-        </a>
+         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Systerant&theme=transparent"/>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/luis3fernando/Zen">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&theme=transparent" style="border: none;" />
-        </a>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&theme=transparent"/>
       </td>
     </tr>
   </table>
