@@ -113,9 +113,9 @@
 </td></tr></table>  
 
 ### Stats  
-<div align="center"> 
+<div align="center" vertical="center"> 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut&hide_border=true&theme=transparent&bg_color=00000000"/>
-<img src="https://github-readme-stats.vercel.app/api?username=luis3fernando&show_icons=true&count_private=true&hide_border=true" align="center" />
+<img src="https://github-readme-stats.vercel.app/api?username=luis3fernando&show_icons=true&count_private=true&hide_border=true&theme=transparent&bg_color=00000000"/>
 </div>
 
 ### Projects interesting  
