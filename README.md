@@ -117,15 +117,15 @@
 <table>
   <tr>
     <td rowspan="2">
-      <a src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent" style="border: none;"></a>
+      <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent"></a>
     </td>
     <td>
-      <a src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&theme=transparent" style="border: none;" ></a>
+      <a href="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&theme=transparent"></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&theme=transparent" style="border: none;" ></a>
+      <a href="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&theme=transparent"></a>
     </td>
   </tr>
 </table>
