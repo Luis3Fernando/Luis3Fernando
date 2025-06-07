@@ -117,7 +117,7 @@
   <table>
     <tr>
       <td rowspan="2">
-         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&hide_border=true&theme=transparent"/>
+         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&hide_border=true&layout=donut-vertical&theme=transparent"/>
       </td>
       <td>
          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Systerant&hide_border=true&theme=transparent"/>
