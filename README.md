@@ -113,7 +113,7 @@
 </td></tr></table>  
 
 ## Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut&theme=transparent" align="center" /></div>  
-
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut&theme=transparent" align="left" /></div>  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle" align="right"/></div>
 <br/> 
 
