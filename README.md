@@ -112,7 +112,7 @@
 
 </td></tr></table>  
 
-## Github Stats  
+## Stats  
 <div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luis3Fernando&hide_border=true&layout=compact&theme=transparent" align="center" /></div>  
 
 <br/> 
