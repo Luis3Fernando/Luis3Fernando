@@ -113,21 +113,22 @@
 </td></tr></table>  
 
 ### Stats  
-<div align="center>
-  <table>
+<div align="center">
+  <table style="width: 100%; table-layout: fixed;">
     <tr>
-      <td>
-         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&hide_border=true&layout=donut-vertical&theme=transparent"/>
+      <td style="width: 50%;">
+         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&hide_border=true&layout=donut-vertical&theme=transparent&bg_color=00000000" width="100%"/>
       </td>
-      <td>
-         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent"/>
+      <td style="width: 50%;">
+         <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent&bg_color=00000000" width="100%"/>
       </td>
     </tr>
     <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=N-Queens-Algorithm-Visual&hide_border=true&theme=transparent"/>
+      <td colspan="2">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=N-Queens-Algorithm-Visual&hide_border=true&theme=transparent&bg_color=00000000" width="100%"/>
       </td>
     </tr>
   </table>
-  </div>
+</div>
+
 
