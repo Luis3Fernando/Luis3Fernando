@@ -115,27 +115,20 @@
 ## Stats  
 <table>
   <tr>
-    <td rowspan="4">
+    <td rowspan="2">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent" style="border: none;" />
     </td>
     <td>
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&theme=transparent" style="border: none;" />
     </td>
+  </tr>
+  <tr>
     <td>
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&theme=transparent" style="border: none;" />
     </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td></td><td></td><td></td>
   </tr>
 </table>
+
 
 
 <br/> 
