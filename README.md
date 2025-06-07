@@ -112,7 +112,7 @@
 
 </td></tr></table>  
 
-## Stats  
+### Stats  
 <div align="center">
   <table>
     <tr>
