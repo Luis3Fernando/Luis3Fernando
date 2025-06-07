@@ -115,6 +115,7 @@
 ### Stats  
 <div align="center"> 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut&hide_border=true&theme=transparent&bg_color=00000000"/>
+            [![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Luis3Fernando)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 
 ### Projects interesting  
