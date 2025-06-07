@@ -121,11 +121,11 @@
       </td>
       <td style="width: 50%;">
          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent&bg_color=00000000" width="100%"/>
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=N-Queens-Algorithm-Visual&hide_border=true&theme=transparent&bg_color=00000000" width="100%"/>
       </td>
     </tr>
     <tr>
-      <td colspan="2">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=N-Queens-Algorithm-Visual&hide_border=true&theme=transparent&bg_color=00000000" width="100%"/>
+      <td>
       </td>
     </tr>
   </table>
