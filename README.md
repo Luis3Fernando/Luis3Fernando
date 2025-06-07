@@ -116,7 +116,7 @@
 <div align="center>
   <table>
     <tr>
-      <td rowspan="2">
+      <td>
          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&hide_border=true&layout=donut-vertical&theme=transparent"/>
       </td>
       <td>
