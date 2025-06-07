@@ -113,7 +113,6 @@
 </td></tr></table>  
 
 ### Stats  
-<div align="center">
   <table>
     <tr>
       <td rowspan="2">
@@ -129,5 +128,4 @@
       </td>
     </tr>
   </table>
-</div>
 
