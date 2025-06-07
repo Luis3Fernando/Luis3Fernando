@@ -113,8 +113,29 @@
 </td></tr></table>  
 
 ## Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent" align="left" /></div>  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&theme=transparent" align="right"/></div>
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&theme=transparent" align="right"/></div>
+<table>
+  <tr>
+    <td rowspan="4">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=donut-vertical&theme=transparent" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Luminle&theme=transparent" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&theme=transparent" />
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td></td><td></td><td></td>
+  </tr>
+</table>
+
 <br/> 
 
