@@ -118,31 +118,3 @@
   <img src="https://github-readme-stats.vercel.app/api?username=luis3fernando&show_icons=true&count_private=true&hide_border=true&theme=transparent&rank_icon=github" width="45%"/>
 </p>
 
-
-### Projects interesting  
-<div align="center">
-  <table style="width: 100%; table-layout: fixed;">
-    <tr>
-      <td style="width: 33.33%; vertical-align: top; padding: 5px;">
-        <a href="https://github.com/luis3fernando/Zen" target="_blank" rel="noopener noreferrer">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Zen&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
-        </a>
-      </td>
-      <td style="width: 33.33%; vertical-align: top; padding: 5px;">
-        <a href="https://github.com/luis3fernando/Luminle" target="_blank" rel="noopener noreferrer">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Curiofy&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
-        </a>
-      </td>
-      <td style="width: 33.33%; vertical-align: top; padding: 5px;">
-        <a href="https://github.com/luis3fernando?tab=languages" target="_blank" rel="noopener noreferrer">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=luis3fernando&repo=Spendly&hide_border=true&theme=transparent&bg_color=00000000" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-
-
-
-
