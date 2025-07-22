@@ -62,7 +62,7 @@
 
 
 ### Technologies I know  
-<table align="center" width="100%><tr><td valign="top" width="25%">
+<table align="center" width="100%"><tr><td valign="top" width="25%">
 
 ### Frameworks  
 <div align="center">  
