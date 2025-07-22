@@ -1,4 +1,4 @@
-<img align="center" width="100%" object-fit="cover" src="./back-copia.png" alt="Background" />
+<img align="center" width="100%" object-fit="cover" src="./back - copia.png" alt="Background" />
 <div align="left">
             <a href="https://www.buymeacoffee.com/Luis3Fernando" target="_blank" style="display: inline-block;">
                 <img
