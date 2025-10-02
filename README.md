@@ -24,9 +24,9 @@
 
 
 <p align="center">
-       About me, I am
-               🎓 a university student passionate about 🎶 music, 🌌 astronomy, 🔌 electronics, 📐 mathematics, and 💻 programming. My goal is to create and innovate for a new world, combining my knowledge and skills to develop solutions that make a difference. 🚀
-       
+     🎓 University graduate passionate about 🎶 music, 🌌 astronomy, 🔌 electronics, 📐 mathematics, and 💻 programming.
+🚀 Founder of Sysari, a small but ambitious startup focused on building innovative tech solutions with real-world impact.
+My goal is to create and innovate for a new world—combining multidisciplinary knowledge to develop meaningful projects that make a difference       
 </p>
 
 <br/>
@@ -50,13 +50,10 @@
 <br/>
 
 ### <div align="center">Viajando hacia las estrellas</div>  
+    
+- 🏔️  APUGO – A smart tourism network connecting and promoting destinations across Peru.
   
-
-- 🔭I am currently setting up a small software development company.  
-  
-
-- ⚡ Upcoming projects soon to see the light of day.  
-  
+- 🎓 VELTU – A university social network designed to foster academic collaboration and student community.
 
 <br/>  
 
