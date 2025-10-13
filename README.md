@@ -50,6 +50,7 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 <br/>
 
 ### <div align="center">Viajando hacia las estrellas</div>  
+### <div align="center">My Projects</div>  
     
 - 🏔️  APUGO – A smart tourism network connecting and promoting destinations across Peru.
   
