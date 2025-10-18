@@ -19,7 +19,8 @@
 </h2>
 
 <p align="center">
-  <a href="https://github.com/alsiam"><img src="https://readme-typing-svg.herokuapp.com/?lines=Self%20Taught%20Programmer;Front%20End%20Developer;1.5%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&center=true&width=380&height=45"></a>
+  <a href="https://github.com/alsiam"><img src="https://readme-typing-svg.herokuapp.com/?lines=Computer%20and%20Systems%20Engineer;Software%20Engineer;Programmer;Full%20Stack%20Developer;Backend%20Developer;Frontend%20Developer;Android%20Developer;DevOps%20Engineer;Machine%20Learning%20Developer;Internet%20of%20Things%20Developer;Robotics%20Enthusiast;Game%20Developer;Software%20Development;Software%20Architect&center=true&width=500&height=45
+"></a>
 </p>
 
 
