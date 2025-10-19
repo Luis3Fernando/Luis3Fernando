@@ -10,9 +10,6 @@
   <img src="https://komarev.com/ghpvc/?username=Luis3Fernando&&style=flat-square" align="center" />
 </div>  
 
-
-
-
 <h2 align="center">
   Hi, I'm Louis
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
@@ -46,10 +43,7 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a>
 </div>  
-
 <br/>
-
-### <div align="center">Viajando hacia las estrellas</div>  
 ### <div align="center">My Projects</div>  
     
 - 🏔️  APUGO – A smart tourism network connecting and promoting destinations across Peru.
