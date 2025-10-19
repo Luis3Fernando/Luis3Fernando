@@ -31,7 +31,7 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 
 <br/>
 
-### Social
+###  <div align="center">Social</div>  
 <div align="center">
 <a href="https://github.com/Luis3Fernando" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
