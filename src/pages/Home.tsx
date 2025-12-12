@@ -8,8 +8,8 @@ import Certifications from '@components/sections/Certifications';
 
 const Home: React.FC = () => {
   return (
-    <div className="w-full max-w-6xl px-4 md:px-8 space-y-24 pb-20">
-      <section id="hero">
+   <div className="w-full max-w-6xl px-4 md:px-8 pb-20">
+      <section id="hero" className="mb-24">
         <Hero />
       </section>
       <section id="experience">

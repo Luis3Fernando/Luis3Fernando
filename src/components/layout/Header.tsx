@@ -6,16 +6,8 @@ import { ProfileImage } from '@assets/images';
 
 import { toggleMenu } from '@store/slices/uiSlice';
 import type { RootState } from '@store/store';
+import { NAV_LINKS } from '@config/navigation';
 import MobileMenu from './MobileMenu';
-
-const NAV_LINKS = [
-  { name: 'Experiencia', href: '#experience' },
-  { name: 'Sobre Mí', href: '#about' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Proyectos', href: '#projects' },
-  { name: 'Certificaciones', href: '#certifications' },
-  { name: 'Publicaciones', href: '#posts' },
-];
 
 const Header: React.FC = () => {
   const dispatch = useDispatch();
@@ -116,7 +108,7 @@ const Header: React.FC = () => {
               </button>
           </div>
         </div>
-        <MobileMenu navLinks={NAV_LINKS} />
+        <MobileMenu navLinks={[...NAV_LINKS]} />
       </header>
     </>
   );
