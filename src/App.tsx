@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux'
+import { store } from '@store/store'
 import MainLayout from './components/layout/MainLayout';
 import Home from './pages/Home';
 import Resume from './pages/Resume';
@@ -6,20 +8,14 @@ import Resume from './pages/Resume';
 function App() {
   return (
     <BrowserRouter>
+     <Provider store={store}>
       <Routes>
-        {/* Ruta Padre: Aplica el MainLayout a todo lo que esté dentro */}
         <Route path="/" element={<MainLayout />}>
-          
-          {/* Index Route: Es lo que se ve en "/" */}
           <Route index element={<Home />} />
-          
-          {/* Ruta CV: Se ve en "/cv", pero mantiene el fondo y navbar */}
-          {/* OJO: Si quieres el CV limpio para imprimir sin Navbar, 
-              lo sacarías fuera de este Route padre */}
-          <Route path="cv" element={<Resume />} />
-          
+          <Route path="resume" element={<Resume />} />
         </Route>
       </Routes>
+     </Provider>
     </BrowserRouter>
   );
 }

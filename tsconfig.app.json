@@ -10,12 +10,11 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@pages/*": ["./src/pages/*"],
       "@assets/*": ["./src/assets/*"],
       "@hooks/*": ["./src/hooks/*"],
-      "@redux/*": ["./src/redux/store/*"],
+      "@store/*": ["./src/store/*"],
       "@utils/*": ["./src/utils/*"]
     },
 
