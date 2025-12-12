@@ -1,1 +1,45 @@
 @import "tailwindcss";
+
+@theme {
+  
+  --color-space: #020617;      
+  --color-space-lighter: #0f172a;
+  --color-space-accent: #1e293b; 
+
+  --color-primary: #3F179D; 
+  --color-primary-hover: #31127a;
+
+  --color-neon: #FF2E63;
+  --color-neon-glow: rgba(255, 46, 99, 0.5);
+
+  --color-text-main: #E2E8F0;
+  --color-text-muted: #94a3b8; 
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, monospace;
+
+  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+}
+
+body {
+  background-color: var(--color-space);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+}
