@@ -36,6 +36,14 @@
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
   }
+
+  --animate-twinkle-slow: twinkle 5s ease-in-out infinite;
+  --animate-twinkle-medium: twinkle 3s ease-in-out infinite;
+
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.2); }
+  }
 }
 
 body {

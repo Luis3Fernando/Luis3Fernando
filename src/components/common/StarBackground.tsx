@@ -1,9 +1,11 @@
-import React from 'react'
 
-function StarBackground() {
+const StarBackground: React.FC = () => {
+
   return (
-    <div>StarBackground</div>
-  )
-}
+    <div className="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden bg-amber-600 pointer-events-none">
+     hh
+    </div>
+  );
+};
 
-export default StarBackground
+export default StarBackground;
