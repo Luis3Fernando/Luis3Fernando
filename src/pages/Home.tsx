@@ -3,7 +3,6 @@ import About from '@components/sections/About';
 import Skills from '@components/sections/Skills';
 import Experience from '@components/sections/Experience';
 import Projects from '@components/sections/Projects';
-import Posts from '@components/sections/Posts';
 import Certifications from '@components/sections/Certifications';
 
 const Home: React.FC = () => {
@@ -26,9 +25,6 @@ const Home: React.FC = () => {
       </section>
       <section id="certifications">
         <Certifications />
-      </section>
-      <section id="posts">
-        <Posts />
       </section>
     </div>
   );

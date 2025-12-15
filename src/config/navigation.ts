@@ -9,5 +9,4 @@ export const NAV_LINKS: ReadonlyArray<NavItem> = [
   { name: 'Skills', href: '#skills' },
   { name: 'Proyectos', href: '#projects' },
   { name: 'Certificaciones', href: '#certifications' },
-  { name: 'Publicaciones', href: '#posts' },
 ];
