@@ -6,7 +6,7 @@ import { ABOUT_DATA } from '@data/about';
 
 const About: React.FC = () => {
   return (
-    <section className="relative py-20 px-4 md:px-8 overflow-hidden">
+    <section className="relative px-4 md:px-8 overflow-hidden">
       <div className="absolute top-0 right-0 w-64 h-64 bg-neon/10 blur-[100px] rounded-full pointer-events-none"></div>
       <div className="max-w-6xl mx-auto">
         <motion.div 
