@@ -16,7 +16,8 @@
       "@hooks/*": ["./src/hooks/*"],
       "@store/*": ["./src/store/*"],
       "@utils/*": ["./src/utils/*"],
-      "@config/*": ["./src/config/*"]
+      "@config/*": ["./src/config/*"],
+      "@data/*": ["./src/data/*"],
     },
 
     /* Bundler mode */
