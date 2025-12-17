@@ -1,48 +1,38 @@
 @import "tailwindcss";
 
 @theme {
-  
-  --color-space: #020617;      
-  --color-space-lighter: #0f172a;
-  --color-space-accent: #1e293b; 
+  --color-space: #09090b;
+  --color-space-lighter: #18181b;
+  --color-space-accent: #27272a;
 
-  --color-primary: #3F179D; 
-  --color-primary-hover: #31127a;
+  --color-primary: #be123c;
+  --color-primary-hover: #9f1239;
+  --color-neon: #f43f5e; 
+  --color-neon-glow: rgba(244, 63, 94, 0.35);
 
-  --color-neon: #FF2E63;
-  --color-neon-glow: rgba(255, 46, 99, 0.5);
-
-  --color-text-main: #E2E8F0;
-  --color-text-muted: #94a3b8; 
-
+  --color-text-main: #f4f4f5;
+  --color-text-muted: #a1a1aa;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Fira Code", ui-monospace, monospace;
-
-  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
-  --animate-float: float 6s ease-in-out infinite;
+  --animate-fade-in-scale: fade-in-scale 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-float: float 8s ease-in-out infinite;
 
   @keyframes fade-in-scale {
-    0% {
-      opacity: 0;
-      transform: scale(0.95);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
+    0% { opacity: 0; transform: scale(0.98); }
+    100% { opacity: 1; transform: scale(1); }
   }
 
   @keyframes float {
     0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
+    50% { transform: translateY(-10px); }
   }
 
-  --animate-twinkle-slow: twinkle 5s ease-in-out infinite;
-  --animate-twinkle-medium: twinkle 3s ease-in-out infinite;
+  --animate-twinkle-slow: twinkle 6s ease-in-out infinite;
+  --animate-twinkle-medium: twinkle 4s ease-in-out infinite;
 
   @keyframes twinkle {
-    0%, 100% { opacity: 0.4; transform: scale(1); }
-    50% { opacity: 1; transform: scale(1.2); }
+    0%, 100% { opacity: 0.2; transform: scale(1); }
+    50% { opacity: 0.8; transform: scale(1.1); }
   }
 }
 
