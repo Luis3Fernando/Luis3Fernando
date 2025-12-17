@@ -5,6 +5,9 @@ import { FaGithub, FaLinkedin, FaJava } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import { SiSpring, SiHibernate, SiReact, SiArduino, SiTensorflow } from 'react-icons/si';
 
+// Importamos el componente modular
+import StarBackground from '@components/common/StarBackground'; 
+
 const TECH_STACK = [
   { icon: FaJava, name: "Java", color: "#E76F00" },
   { icon: SiSpring, name: "Spring Boot", color: "#6DB33F" },
@@ -16,8 +19,8 @@ const TECH_STACK = [
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-[calc(100vh-5rem)] flex flex-col justify-center items-center text-center px-4 overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-primary/20 blur-[120px] rounded-full pointer-events-none" />
+    <section className="relative min-h-[calc(100vh-5rem)] flex flex-col justify-center items-center text-center px-4 overflow-hidden bg-space">
+      <StarBackground />
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -34,24 +37,33 @@ const Hero: React.FC = () => {
           <FiDownload />
           <span>Descargar CV</span>
         </motion.a>
+
         <h2 className="text-xl md:text-2xl font-mono text-neon font-medium tracking-widest uppercase">
           Software Developer
         </h2>
-        <h1 className="text-xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-2">
-          Luis Fernando <span className="text-transparent bg-clip-text bg-linear-to-r from-text-main to-text-muted">Chumbes Ramos</span>
+
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-2">
+          Luis Fernando <span className="text-transparent bg-clip-text bg-gradient-to-r from-text-main to-text-muted">Chumbes Ramos</span>
         </h1>
-        <div className="text-xl md:text-xl text-text-muted font-light h-10">
+
+        <div className="text-xl md:text-2xl text-text-muted font-light h-10 flex flex-col md:flex-row gap-2 items-center">
           <span>Especialista en </span>
           <TypeAnimation
             sequence={[
               'Java & Spring Ecosystem',
+              2000,
+              'Arquitectura Backend',
+              2000,
+              'Soluciones IoT',
+              2000
             ]}
             wrapper="span"
             speed={50}
-            className="text-[#FBBA1A] font-semibold"
-            repeat={1}
+            className="text-primary font-semibold"
+            repeat={Infinity}
           />
         </div>
+
         <div className="flex flex-wrap justify-center gap-4 mt-8">
           <motion.a 
             href="https://linkedin.com/in/tu-usuario" 
@@ -74,8 +86,9 @@ const Hero: React.FC = () => {
             GitHub
           </motion.a>
         </div>
+
         <div className="mt-16 flex flex-col items-center gap-4">
-          <p className="text-sm font-mono text-text-muted opacity-60">STACK TECNOLÓGICO PRINCIPAL</p>
+          <p className="text-sm font-mono text-text-muted opacity-60 uppercase tracking-wider">Stack Tecnológico Principal</p>
           <div className="flex flex-wrap justify-center gap-6 md:gap-8">
             {TECH_STACK.map((tech, index) => (
               <motion.div
@@ -92,6 +105,7 @@ const Hero: React.FC = () => {
             ))}
           </div>
         </div>
+
       </motion.div>
     </section>
   );
