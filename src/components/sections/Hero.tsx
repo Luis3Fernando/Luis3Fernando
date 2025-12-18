@@ -18,13 +18,13 @@ const TECH_STACK = [
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-dvh flex flex-col justify-center items-center text-center px-4 overflow-hidden bg-space">
+    <section className="relative flex flex-col justify-center items-center text-center px-4 overflow-hidden bg-space">
       <StarBackground /> 
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative -mt-36 z-10 flex flex-col items-center gap-x-6 max-w-4xl w-full"
+        className="relative mt-16 z-10 flex flex-col items-center gap-x-6 max-w-4xl w-full"
       >
         <motion.a
           href={PROFILE.cvUrl}
