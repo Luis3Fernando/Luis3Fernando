@@ -9,7 +9,8 @@ import {
   FaSearch,
 } from "react-icons/fa";
 import { HiOutlineEmojiSad } from "react-icons/hi";
-import { PROJECTS_DATA, type Category, type LinkType } from "@data/projects";
+import { PROJECTS_DATA} from "@data/projects";
+import type { Category, LinkType } from "@models/project.model";
 
 const CATEGORIES: Category[] = [
   "Todos",
@@ -17,14 +18,15 @@ const CATEGORIES: Category[] = [
   "Backend",
   "IoT",
   "Mobile",
+  "Videojuegos",
 ];
 
 const Projects: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<Category>("Todos");
-
-  const filteredProjects = PROJECTS_DATA.filter((project) =>
-    activeCategory === "Todos" ? true : project.category === activeCategory
-  );
+  const filteredProjects = PROJECTS_DATA.filter((project) => {
+    if (activeCategory === "Todos") return true;
+    return project.categories.includes(activeCategory);
+  });
 
   const renderLinkButton = (type: LinkType, url: string, label?: string) => {
     let icon = <FaExternalLinkAlt />;
@@ -83,7 +85,7 @@ const Projects: React.FC = () => {
           className="text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Proyectos <span className="text-neon">Realizados</span>
+            Proyectos <span className="text-neon">realizados</span>
           </h2>
           <div className="h-1 w-24 bg-neon mx-auto rounded-full shadow-[0_0_10px_var(--color-neon)]"></div>
         </motion.div>
@@ -114,7 +116,6 @@ const Projects: React.FC = () => {
         </div>
       </div>
       <div className="max-w-6xl mx-auto min-h-100">
-        {" "}
         <AnimatePresence mode="wait">
           {filteredProjects.length === 0 ? (
             <motion.div
@@ -160,7 +161,7 @@ const Projects: React.FC = () => {
                 <div className="lg:col-span-5 flex flex-col gap-6 order-2 lg:order-1 text-left">
                   <div>
                     <span className="text-neon font-mono text-sm tracking-widest uppercase mb-2 block">
-                      {project.category}
+                     {project.categories.join("  •  ")}
                     </span>
                     <h3 className="text-3xl md:text-4xl font-bold text-white mb-2 leading-tight">
                       {project.title}
@@ -184,13 +185,16 @@ const Projects: React.FC = () => {
                       TECNOLOGÍAS:
                     </p>
                     <div className="flex flex-wrap gap-4 text-2xl text-text-muted">
-                      {project.tech.map((icon, i) => (
+                      {project.tech.map((techItem, i) => (
                         <div
                           key={i}
-                          className="hover:text-neon transition-colors transform hover:scale-110 duration-200 cursor-help"
-                          title="Tecnología usada"
+                          className="transition-transform transform hover:scale-125 duration-200 cursor-help"
+                          title={techItem.name}
+                          style={{ color: techItem.color }} 
                         >
-                          {icon}
+                          <span className="filter drop-shadow-[0_0_2px_rgba(0,0,0,0.5)]">
+                            {techItem.icon}
+                          </span>
                         </div>
                       ))}
                     </div>
@@ -213,6 +217,7 @@ const Projects: React.FC = () => {
                     </div>
                   </div>
                 </div>
+
               </motion.div>
             ))
           )}

@@ -18,6 +18,7 @@
       "@utils/*": ["./src/utils/*"],
       "@config/*": ["./src/config/*"],
       "@data/*": ["./src/data/*"],
+      "@models/*": ["./src/models/*"],
     },
 
     /* Bundler mode */
