@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { HiMenuAlt3, HiX, HiChevronDown } from 'react-icons/hi';
-import { MdLanguage } from 'react-icons/md';
+import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import { ProfileImage } from '@assets/images';
 
 import { toggleMenu } from '@store/slices/uiSlice';
@@ -14,25 +13,11 @@ const Header: React.FC = () => {
   const isMenuOpen = useSelector((state: RootState) => state.ui.isMenuOpen);
   
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isLangOpen, setIsLangOpen] = useState(false); 
-  const [currentLang, setCurrentLang] = useState('ES'); 
-
-  const langMenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (langMenuRef.current && !langMenuRef.current.contains(event.target as Node)) {
-        setIsLangOpen(false);
-      }
-    };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   return (
@@ -65,41 +50,8 @@ const Header: React.FC = () => {
                 </li>
               ))}
             </ul>
-            <div className="h-4 w-px bg-space-accent"></div>
-            <div className="relative" ref={langMenuRef}>
-              <button 
-                onClick={() => setIsLangOpen(!isLangOpen)}
-                className="flex items-center gap-2 cursor-pointer text-sm font-mono text-text-muted hover:text-text-main border border-space-accent px-3 py-1.5 rounded-full hover:border-neon transition-all bg-space-lighter/50"
-              >
-                <MdLanguage size={16} />
-                <span>{currentLang}</span>
-                <HiChevronDown className={`transition-transform duration-300 ${isLangOpen ? 'rotate-180' : ''}`} />
-              </button>
-              {isLangOpen && (
-                <div className="absolute top-full right-0 mt-2 w-32 bg-space-lighter border border-space-accent rounded-xl shadow-xl overflow-hidden animate-fade-in-scale">
-                  <button 
-                    onClick={() => { setCurrentLang('ES'); setIsLangOpen(false); }}
-                    className={`w-full text-left px-4 py-2 text-sm hover:bg-space-accent transition-colors ${currentLang === 'ES' ? 'text-neon font-bold' : 'text-text-muted'}`}
-                  >
-                    Español
-                  </button>
-                  <button 
-                    onClick={() => { setCurrentLang('EN'); setIsLangOpen(false); }}
-                    className={`w-full text-left px-4 py-2 text-sm hover:bg-space-accent transition-colors ${currentLang === 'EN' ? 'text-neon font-bold' : 'text-text-muted'}`}
-                  >
-                    English
-                  </button>
-                </div>
-              )}
-            </div>
           </nav>
           <div className="flex items-center gap-4 lg:hidden">
-              <button 
-                  onClick={() => setCurrentLang(currentLang === 'ES' ? 'EN' : 'ES')}
-                  className="text-xs font-mono text-text-muted border border-space-accent px-2 py-1 rounded hover:text-neon"
-              >
-                  {currentLang}
-              </button>
               <button 
                 onClick={() => dispatch(toggleMenu())}
                 className="text-text-main hover:text-neon transition-colors focus:outline-none"
