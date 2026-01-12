@@ -1,9 +1,11 @@
+import cvFile from '@assets/pdf/cv.pdf';
+
 export const PROFILE = {
   firstName: "Luis Fernando",
   lastName: "Chumbes Ramos",
   role: "Software Developer",
   subTitle: "Enfocado en", 
-  cvUrl: "/cv.pdf",
+  cvUrl: cvFile,
   
   social: {
     linkedin: "https://www.linkedin.com/in/luis-fernando3/",
@@ -12,13 +14,13 @@ export const PROFILE = {
   },
 
   typewriterSentences: [
-    'Desarrollo Backend con Java & Spring', 
+    'Desarrollo backend con Java & Spring', 
     2000,   
     'Creación de APIs RESTful escalables',  
     2000,
-    'Full Stack con Angular & TypeScript', 
+    'Full Stack developer', 
     2000,
-    'Integración de Bases de Datos SQL',  
+    'Integración de bases de datos SQL',  
     2000,
   ]
 };
