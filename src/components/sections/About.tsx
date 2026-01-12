@@ -6,7 +6,7 @@ import { ABOUT_DATA } from '@data/about';
 
 const About: React.FC = () => {
   return (
-    <section className="relative py-8 md:py-10 px-4 md:px-8 overflow-hidden" id="about">
+    <section className="relative py-8 md:py-10 mb-40 px-4 md:px-8 overflow-hidden" id="about">
       <div className="absolute top-0 right-0 w-64 h-64 bg-neon/5 blur-[100px] rounded-full pointer-events-none"></div>
       <div className="max-w-7xl mx-auto">
         <motion.div 
@@ -16,7 +16,7 @@ const About: React.FC = () => {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Sobre <span className="text-neon">Mí</span>
+            Sobre <span className="text-neon">mí</span>
           </h2>
           <div className="h-1 w-20 md:w-24 bg-neon mx-auto rounded-full shadow-[0_0_10px_var(--color-neon)]"></div>
         </motion.div>
@@ -39,11 +39,11 @@ const About: React.FC = () => {
             </div>
             <div className="grid grid-cols-2 gap-4 pt-4 border-t border-white/5">
               <div>
-                <span className="block text-3xl md:text-4xl font-bold text-white mb-1">2+</span>
+                <span className="block text-3xl md:text-4xl font-bold text-white mb-1">1+</span>
                 <span className="text-sm text-text-muted">Años de Experiencia</span>
               </div>
               <div>
-                <span className="block text-3xl md:text-4xl font-bold text-white mb-1">5+</span>
+                <span className="block text-3xl md:text-4xl font-bold text-white mb-1">3+</span>
                 <span className="text-sm text-text-muted">Proyectos Desplegados</span>
               </div>
             </div>

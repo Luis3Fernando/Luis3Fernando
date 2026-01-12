@@ -65,8 +65,6 @@ const Experience: React.FC = () => {
                 <p className="text-text-muted leading-relaxed mb-5 border-l-2 border-primary/30 pl-3 md:pl-4 text-sm md:text-base">
                   {exp.description}
                 </p>
-
-                {/* 4. TECH CHIPS (Compactos en móvil) */}
                 <div className="flex flex-wrap gap-2 md:gap-3">
                   {exp.tech.map((techItem) => (
                     <span 

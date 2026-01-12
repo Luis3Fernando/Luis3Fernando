@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
         className="text-center mb-12"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-          Arsenal <span className="text-neon">Tecnológico</span>
+          Stack <span className="text-neon">tecnológico</span>
         </h2>
         <div className="h-1 w-24 bg-neon mx-auto rounded-full shadow-[0_0_10px_var(--color-neon)]"></div>
       </motion.div>
