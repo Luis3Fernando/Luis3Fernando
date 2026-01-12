@@ -2,7 +2,7 @@
   "name": "luis3fernando",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Luis3Fernando.github.io",
+  "homepage": "https://Luis3Fernando.github.io/Luis3Fernando",
   "type": "module",
   "scripts": {
     "dev": "vite",
