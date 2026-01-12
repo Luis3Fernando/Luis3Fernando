@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useLocation, useNavigate } from 'react-router-dom'; // <--- IMPORTS CRUCIALES
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { ProfileImage } from "@assets/images";
 
@@ -11,14 +12,36 @@ import MobileMenu from "./MobileMenu";
 const Header: React.FC = () => {
   const dispatch = useDispatch();
   const isMenuOpen = useSelector((state: RootState) => state.ui.isMenuOpen);
-
   const [isScrolled, setIsScrolled] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('#')) {
+      e.preventDefault(); 
+
+      const targetId = href.substring(1); 
+      const element = document.getElementById(targetId);
+
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        if (location.pathname !== '/') {
+            navigate('/');
+            setTimeout(() => {
+                const el = document.getElementById(targetId);
+                el?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+      }
+    }
+  };
 
   return (
     <>
@@ -33,17 +56,16 @@ const Header: React.FC = () => {
         <div className="container mx-auto px-6 md:px-8 flex justify-between items-center relative z-50">
           <a
             href="#hero"
-            className="group flex flex-row items-center gap-3 text-text-main cursor-pointer transition-opacity"
+            onClick={(e) => handleNavClick(e, '#hero')}
+            className="flex flex-row items-center gap-3 text-text-main cursor-pointer hover:opacity-80 transition-opacity"
           >
-           <div className="relative z-50">
-              <img
-                src={ProfileImage}
-                alt="profile image"
-                className='h-10 w-10 object-cover border border-space-accent rounded-full origin-top-left transition-all duration-300 ease-out hover:scale-[6] hover:rounded-md hover:border-neon hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] hover:z-50'
-              />
-            </div>
-            <div className="flex flex-col justify-center transition-opacity duration-300 group-hover:opacity-100">
-              <p className="text-sm font-medium leading-tight group-hover:text-white transition-colors">
+            <img
+              src={ProfileImage}
+              alt="profile image"
+              className="h-10 w-10 rounded-full border border-space-accent object-cover"
+            />
+            <div className="flex flex-col justify-center">
+              <p className="text-sm font-medium leading-tight">
                 Luis Fernando Chumbes Ramos
               </p>
               <span className="text-xs text-neon font-mono">
@@ -57,6 +79,7 @@ const Header: React.FC = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
+                    onClick={(e) => handleNavClick(e, link.href)}
                     className="text-text-muted hover:text-neon text-sm font-medium tracking-wide transition-all duration-300 relative group py-2"
                   >
                     {link.name}

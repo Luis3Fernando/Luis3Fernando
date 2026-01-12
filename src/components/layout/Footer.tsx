@@ -1,15 +1,40 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { useNavigate, useLocation } from "react-router-dom";
 import { FaCopy, FaCheck } from "react-icons/fa";
 import { HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
 import { FOOTER_DATA } from "@data/footer";
 
 const Footer: React.FC = () => {
   const [copied, setCopied] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(FOOTER_DATA.contact.email);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      
+      const targetId = href.substring(1);
+      const element = document.getElementById(targetId);
+
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        if (location.pathname !== '/') {
+            navigate('/');
+            setTimeout(() => {
+                const el = document.getElementById(targetId);
+                el?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+      }
+    }
   };
 
   return (
@@ -47,7 +72,8 @@ const Footer: React.FC = () => {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="text-text-muted hover:text-neon transition-colors text-sm flex items-center gap-2 group"
+                      onClick={(e) => handleNavClick(e, link.href)} 
+                      className="text-text-muted hover:text-neon transition-colors text-sm flex items-center gap-2 group cursor-pointer"
                     >
                       <span className="w-0 group-hover:w-2 h-px bg-neon transition-all duration-300"></span>
                       {link.name}
@@ -108,7 +134,6 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 whileHover={{ y: -3 }}
                 className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-text-muted border border-white/5 transition-colors"
-                style={{}}
               >
                 <span
                   className="text-lg transition-colors duration-300 hover:text-(--hover-color)"
