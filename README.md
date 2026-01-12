@@ -24,7 +24,7 @@
 <p align="center">
      🎓 University graduate passionate about 🎶 music, 🌌 astronomy, 🔌 electronics, 📐 mathematics, and 💻 programming.
 🚀 Founder of Sysari, a small but ambitious startup focused on building innovative tech solutions with real-world impact.
-My goal is to create and innovate for a new world—combining multidisciplinary knowledge to develop meaningful projects that make a difference       
+My goal is to create and innovate for a new world—combining multidisciplinary knowledge to develop meaningful projects that make a difference.       
 </p>
 
 <br/>
