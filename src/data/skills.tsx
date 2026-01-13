@@ -2,11 +2,12 @@ import { FaJava, FaHtml5, FaCss3Alt, FaGitAlt, FaDocker, FaPython, FaUnity } fro
 import { TbBrandCSharp } from "react-icons/tb";
 import { 
   SiJavascript, SiTypescript, SiCplusplus,
-  SiAngular, SiSpring, SiHibernate, SiReact, SiRedux, SiElectron, SiExpo, SiDjango, SiFastapi, SiNestjs, SiExpress, SiFlutter,
-  SiTailwindcss, SiMongodb, SiPostgresql, SiMysql, SiPrisma, SiTensorflow, SiOpencv,
-  SiArduino, SiEspressif, SiRaspberrypi, SiFigma, SiNodedotjs,
+  SiAngular, SiSpring, SiHibernate, SiReact, SiRedux, SiElectron, SiExpo, SiDjango, SiFastapi, SiNestjs,
+  SiTailwindcss, SiMongodb, SiPostgresql, SiMysql, SiPrisma,
+  SiArduino, SiEspressif, SiRaspberrypi, SiNodedotjs,
   SiGodotengine
 } from 'react-icons/si';
+import { DiMsqlServer } from "react-icons/di";
 
 export interface Skill {
   name: string;
@@ -42,10 +43,8 @@ export const SKILLS_DATA: SkillCategory[] = [
       { name: "React / Native", icon: <SiReact />, color: "#61DAFB", url: "https://react.dev/" },
       { name: "Node.js", icon: <SiNodedotjs />, color: "#339933", url: "https://nodejs.org/" },
       { name: "NestJS", icon: <SiNestjs />, color: "#E0234E", url: "https://nestjs.com/" },
-      { name: "Express", icon: <SiExpress />, color: "#ffffff", url: "https://expressjs.com/" },
       { name: "Django", icon: <SiDjango />, color: "#092E20", url: "https://www.djangoproject.com/" },
       { name: "FastAPI", icon: <SiFastapi />, color: "#009688", url: "https://fastapi.tiangolo.com/" },
-      { name: "Flutter", icon: <SiFlutter />, color: "#02569B", url: "https://flutter.dev/" },
       { name: "Electron", icon: <SiElectron />, color: "#47848F", url: "https://www.electronjs.org/" },
       
     ]
@@ -57,11 +56,10 @@ export const SKILLS_DATA: SkillCategory[] = [
       { name: "Prisma", icon: <SiPrisma />, color: "#2D3748", url: "https://www.prisma.io/" },
       { name: "PostgreSQL", icon: <SiPostgresql />, color: "#4169E1", url: "https://www.postgresql.org/" },
       { name: "MySQL", icon: <SiMysql />, color: "#4479A1", url: "https://www.mysql.com/" },
+      { name: "Sql Server", icon: <DiMsqlServer />, color: "#B11B1B", url: "https://www.microsoft.com/sql-server" },
       { name: "MongoDB", icon: <SiMongodb />, color: "#47A248", url: "https://www.mongodb.com/" },
       { name: "Redux", icon: <SiRedux />, color: "#764ABC", url: "https://redux.js.org/" },
       { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "#06B6D4", url: "https://tailwindcss.com/" },
-      { name: "TensorFlow", icon: <SiTensorflow />, color: "#FF6F00", url: "https://www.tensorflow.org/" },
-      { name: "OpenCV", icon: <SiOpencv />, color: "#5C3EE8", url: "https://opencv.org/" },
     ]
   },
   {
@@ -73,7 +71,6 @@ export const SKILLS_DATA: SkillCategory[] = [
       { name: "Arduino", icon: <SiArduino />, color: "#00979D", url: "https://www.arduino.cc/" },
       { name: "Raspberry Pi", icon: <SiRaspberrypi />, color: "#C51A4A", url: "https://www.raspberrypi.org/" },
       { name: "Expo", icon: <SiExpo />, color: "#000020", url: "https://expo.dev/" },
-      { name: "Figma", icon: <SiFigma />, color: "#F24E1E", url: "https://www.figma.com/" },
       { name: "Unity", icon: <FaUnity />, color: "#FFFFFF", url: "https://unity.com/" },
       { name: "Godot", icon: <SiGodotengine />, color: "#4D90C1", url: "https://godotengine.org/" },
     ]
