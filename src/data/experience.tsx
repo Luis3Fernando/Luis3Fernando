@@ -37,7 +37,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     role: "Programador Full Stack Junior",
     company: "CODIDEEP E.I.R.L.",
     companyUrl: "https://codideep.com/",
-    date: "Ago 2025 - Nov 2025",
+    date: "Ago 2025 - Feb 2026",
     location: "Abancay, Apurímac",
     description:
       "Implementé soluciones full stack utilizando Angular y Spring Boot. Desarrollé funcionalidades clave como manejo asincrono de peticiones, paginación y consumo de API REST. Participé en el ciclo completo del desarrollo de software desde diseño hasta despliegue.",
