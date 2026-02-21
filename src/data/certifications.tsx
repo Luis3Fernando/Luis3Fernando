@@ -1,5 +1,5 @@
 import { FaDocker } from 'react-icons/fa';
-import {SiDjango, SiSpring} from 'react-icons/si';
+import {SiDjango, SiGitbook, SiSpring} from 'react-icons/si';
 
 export interface Certification {
   id: number;
@@ -16,6 +16,22 @@ export interface Certification {
 export const CERTIFICATIONS_DATA: Certification[] = [
   {
     id: 1,
+    title: "Introduction to Scrum Master Training",
+    issuer: "LearnQuest",
+    date: "Feb 2026",
+    credentialId: "J032D0Q4Z8AH",
+    url: "https://www.coursera.org/account/accomplishments/verify/J032D0Q4Z8AH",
+    icon: <SiGitbook />,
+    color: "#1F9CB7",
+    skills: [
+      "Scrum",
+      "Diferencias entre Cascada y Ágil",
+      "Scrum terminología y roles",
+      "Manejo de tareas y eventos escribiendo sprints"
+    ]
+  },
+  {
+    id: 2,
     title: "Java Spring Boot Microservices eCommerce Project Masterclass",
     issuer: "Udemy",
     date: "Dic 2025",
@@ -31,7 +47,7 @@ export const CERTIFICATIONS_DATA: Certification[] = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "Build a Backend REST API with Python & Django - Advanced",
     issuer: "Udemy",
     date: "Ago 2025",
@@ -47,7 +63,7 @@ export const CERTIFICATIONS_DATA: Certification[] = [
     ]
   },
   {
-    id: 2,
+    id: 4,
     title: "Docker & Kubernetes: The Practical Guide",
     issuer: "Udemy",
     date: "Jun 2025",
