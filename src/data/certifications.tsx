@@ -1,4 +1,4 @@
-import { FaDocker } from 'react-icons/fa';
+import { FaDocker, FaServer } from 'react-icons/fa';
 import {SiDjango, SiGitbook, SiSpring} from 'react-icons/si';
 
 export interface Certification {
@@ -75,6 +75,21 @@ export const CERTIFICATIONS_DATA: Certification[] = [
       "AWS ECS",
       "Desplegue de Contenedores",
       "Kubernetes Inicialización y Gestión",
+    ]
+  },
+  {
+    id: 5,
+    title: "Application Development using Microservices and Serverless",
+    issuer: "Coursera",
+    date: "Mar 2026",
+    credentialId: "0PX2BA8AZBBH",
+    url: "https://www.coursera.org/account/accomplishments/verify/0PX2BA8AZBBH",
+    icon: <FaServer />,
+    color: "#4A90E2",
+    skills: [
+      "Microservices and Serverless Architecture",
+      "Docker",
+      "Amazon Web Services (AWS)",
     ]
   }
 ];
