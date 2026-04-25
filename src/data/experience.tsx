@@ -11,6 +11,7 @@ import {
   SiFigma,
   SiMysql,
   SiInternetcomputer,
+  SiPhp,
 } from "react-icons/si";
 import { DiDotnet } from "react-icons/di";
 
@@ -34,13 +35,13 @@ export interface ExperienceItem {
 export const EXPERIENCES: ExperienceItem[] = [
   {
     id: 1,
-    role: "Programador Full Stack Junior",
+    role: "Programador Full Stack",
     company: "CODIDEEP E.I.R.L.",
     companyUrl: "https://codideep.com/",
-    date: "Ago 2025 - Feb 2026",
+    date: "Ago 2025 - Abr 2026",
     location: "Abancay, Apurímac",
     description:
-      "Implementé soluciones full stack utilizando Angular y Spring Boot. Desarrollé funcionalidades clave como manejo asincrono de peticiones, paginación y consumo de API REST. Participé en el ciclo completo del desarrollo de software desde diseño hasta despliegue.",
+      "Implementé mejoras críticas en el sistema de facturación electrónica utilizando PHP y JavaScript, y optimizando la generación de comprobantes para impresión con NodeJs. Realicé análisis y mantenimiento de sistemas, Java y MySQL, integrando lógica de negocio compleja y optimizando consultas para mejorar el rendimiento del servidor.",
     tech: [
       { name: "Angular", icon: <SiAngular />, color: "#FF2D20" },
       { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
@@ -48,6 +49,7 @@ export const EXPERIENCES: ExperienceItem[] = [
       { name: "Git", icon: <SiGit />, color: "#F35530" },
       { name: "Java", icon: <SiSpring />, color: "#E76F00" },
       { name: "Spring Boot", icon: <SiSpring />, color: "#6DB33F" },
+      { name: "PHP", icon: <SiPhp />, color: "#777BB4" },
     ],
   },
   {
