@@ -1,4 +1,4 @@
-import { FaDocker, FaServer } from 'react-icons/fa';
+import { FaDocker } from 'react-icons/fa';
 import {SiDjango, SiGitbook, SiSpring} from 'react-icons/si';
 
 export interface Certification {
@@ -16,18 +16,20 @@ export interface Certification {
 export const CERTIFICATIONS_DATA: Certification[] = [
   {
     id: 1,
-    title: "Introduction to Scrum Master Training",
+    title: "Scrum Master Certification",
     issuer: "LearnQuest",
-    date: "Feb 2026",
-    credentialId: "J032D0Q4Z8AH",
-    url: "https://www.coursera.org/account/accomplishments/verify/J032D0Q4Z8AH",
+    date: "Abr 2026",
+    credentialId: "SF1WGE0RKX8J",
+    url: "https://www.coursera.org/account/accomplishments/specialization/SF1WGE0RKX8J",
     icon: <SiGitbook />,
     color: "#1F9CB7",
     skills: [
       "Scrum",
       "Diferencias entre Cascada y Ágil",
       "Scrum terminología y roles",
-      "Manejo de tareas y eventos escribiendo sprints"
+      "Manejo de tareas y eventos escribiendo sprints",
+      "Gestión de proyectos con Scrum",
+      "Devops y Scrum"
     ]
   },
   {
@@ -73,23 +75,27 @@ export const CERTIFICATIONS_DATA: Certification[] = [
     color: "#2494E8",
     skills: [
       "AWS ECS",
-      "Desplegue de Contenedores",
+      "Despliegue de Contenedores",
       "Kubernetes Inicialización y Gestión",
     ]
   },
   {
     id: 5,
-    title: "Application Development using Microservices and Serverless",
-    issuer: "Coursera",
-    date: "Mar 2026",
-    credentialId: "0PX2BA8AZBBH",
-    url: "https://www.coursera.org/account/accomplishments/verify/0PX2BA8AZBBH",
-    icon: <FaServer />,
-    color: "#4A90E2",
+    title: "Spring Framework Certification",
+    issuer: "LearnQuest",
+    date: "Abr 2026",
+    credentialId: "Y9VKD1SZCKDZ",
+    url: "https://www.coursera.org/account/accomplishments/specialization/Y9VKD1SZCKDZ",
+    icon: <SiSpring />,
+    color: "#6DB33F",
     skills: [
-      "Microservices and Serverless Architecture",
-      "Docker",
-      "Amazon Web Services (AWS)",
+      "Spring Framework",
+      "Spring Cloud",
+      "Spring Boot",
+      "Spring Data Repositories",
+      "Hibernate",
+      "JPA",
+      "Arquitectura orientada a servicios (SOA)"
     ]
   }
 ];
