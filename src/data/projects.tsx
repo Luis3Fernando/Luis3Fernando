@@ -1,8 +1,9 @@
 import type { Project } from '@models/project.model';
-import { SiSpring, SiReact, SiPostgresql, SiDjango, SiMysql, SiAngular, SiGodotengine } from 'react-icons/si';
+import { SiSpring, SiReact, SiPostgresql, SiDjango, SiMysql, SiAngular, SiGodotengine, SiSqlite } from 'react-icons/si';
 import apugo from '@assets/screenshots/apugo.png';
 import veltu from '@assets/screenshots/veltu.png';
 import spoo from '@assets/screenshots/spoo.png';
+import echo from '@assets/screenshots/echo.jpg';
 
 export const PROJECTS_DATA: Project[] = [
   {
@@ -51,5 +52,20 @@ export const PROJECTS_DATA: Project[] = [
     links: [
       { type: 'demo', url: 'https://play.google.com/store/apps/details?id=com.louis3l3.Apugo&pli=1', label: 'Play Store' }
     ]
-  }
+  },
+  {
+    id: 4,
+    title: "Echo Music",
+    subtitle: "Reproductor de música",
+    description: "Echo Music es una aplicación de reproducción de música que permite a los usuarios disfrutar su música con una experiencia personalizada. Echo Music se basa en las estadísticas de escucha, hacer TOPS según las preferencias. Permite leer metadatos de archivos de música, organizar la biblioteca musical y crear playlists personalizadas.",
+    categories: ["Mobile"],
+    image: echo,
+    tech: [
+      { name: "React Native", icon: <SiReact />, color: "#61DAFB" },
+      { name: "SQLite", icon: <SiSqlite />, color: "#092E20" },
+    ],
+    links: [
+      { type: 'github-all', url: 'https://github.com/Luis3Fernando/Echo-Music', label: 'Ver código' },
+    ]
+  },
 ];

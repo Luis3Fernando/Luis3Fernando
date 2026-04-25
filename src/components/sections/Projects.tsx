@@ -7,9 +7,10 @@ import {
   FaServer,
   FaDesktop,
   FaSearch,
+  FaMobile,
 } from "react-icons/fa";
 import { HiOutlineEmojiSad } from "react-icons/hi";
-import { PROJECTS_DATA} from "@data/projects";
+import { PROJECTS_DATA } from "@data/projects";
 import type { Category, LinkType } from "@models/project.model";
 
 const CATEGORIES: Category[] = [
@@ -57,6 +58,12 @@ const Projects: React.FC = () => {
       case "demo":
         icon = <FaExternalLinkAlt />;
         defaultLabel = "Live Demo";
+        bgClass =
+          "bg-primary/20 hover:bg-primary/30 text-white border border-primary/30";
+        break;
+      case "github-app":
+        icon = <FaMobile />;
+        defaultLabel = "App GitHub";
         bgClass =
           "bg-primary/20 hover:bg-primary/30 text-white border border-primary/30";
         break;
@@ -161,7 +168,7 @@ const Projects: React.FC = () => {
                 <div className="lg:col-span-5 flex flex-col gap-6 order-2 lg:order-1 text-left">
                   <div>
                     <span className="text-neon font-mono text-sm tracking-widest uppercase mb-2 block">
-                     {project.categories.join("  •  ")}
+                      {project.categories.join("  •  ")}
                     </span>
                     <h3 className="text-3xl md:text-4xl font-bold text-white mb-2 leading-tight">
                       {project.title}
@@ -190,7 +197,7 @@ const Projects: React.FC = () => {
                           key={i}
                           className="transition-transform transform hover:scale-125 duration-200 cursor-help"
                           title={techItem.name}
-                          style={{ color: techItem.color }} 
+                          style={{ color: techItem.color }}
                         >
                           <span className="filter drop-shadow-[0_0_2px_rgba(0,0,0,0.5)]">
                             {techItem.icon}
@@ -217,7 +224,6 @@ const Projects: React.FC = () => {
                     </div>
                   </div>
                 </div>
-
               </motion.div>
             ))
           )}

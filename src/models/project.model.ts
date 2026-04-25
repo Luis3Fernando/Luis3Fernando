@@ -1,5 +1,5 @@
 export type Category = "Todos" | "Full Stack" | "Backend" | "IoT" | "Mobile" | "Videojuegos";
-export type LinkType = 'github-front' | 'github-back' | 'github-all' | 'demo' | 'article';
+export type LinkType = 'github-front' | 'github-back' | 'github-all' | 'demo' | 'article' | 'github-app';
 
 export interface ProjectLink {
   type: LinkType;
