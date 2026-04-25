@@ -14,6 +14,7 @@ import {
   SiPhp,
 } from "react-icons/si";
 import { DiDotnet } from "react-icons/di";
+import { FaJava } from "react-icons/fa";
 
 export interface TechItem {
   name: string;
@@ -47,7 +48,7 @@ export const EXPERIENCES: ExperienceItem[] = [
       { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
       { name: "MySQL", icon: <SiMysql />, color: "#08668E" },
       { name: "Git", icon: <SiGit />, color: "#F35530" },
-      { name: "Java", icon: <SiSpring />, color: "#E76F00" },
+      { name: "Java", icon: <FaJava />, color: "#E76F00" },
       { name: "Spring Boot", icon: <SiSpring />, color: "#6DB33F" },
       { name: "PHP", icon: <SiPhp />, color: "#777BB4" },
     ],
