@@ -1,8 +1,8 @@
-import { FaJava, FaHtml5, FaCss3Alt, FaGitAlt, FaDocker, FaPython, FaUnity } from 'react-icons/fa';
+import { FaJava, FaHtml5, FaCss3Alt, FaGitAlt, FaDocker, FaPython } from 'react-icons/fa';
 import { TbBrandCSharp } from "react-icons/tb";
 import { 
   SiJavascript, SiTypescript, SiCplusplus,
-  SiAngular, SiSpring, SiHibernate, SiReact, SiRedux, SiElectron, SiExpo, SiDjango, SiFastapi, SiNestjs,
+  SiAngular, SiSpring, SiHibernate, SiReact, SiRedux, SiExpo, SiDjango, SiFastapi, SiNestjs,
   SiTailwindcss, SiMongodb, SiPostgresql, SiMysql, SiPrisma,
   SiArduino, SiEspressif, SiRaspberrypi, SiNodedotjs,
   SiGodotengine
@@ -45,7 +45,6 @@ export const SKILLS_DATA: SkillCategory[] = [
       { name: "NestJS", icon: <SiNestjs />, color: "#E0234E", url: "https://nestjs.com/" },
       { name: "Django", icon: <SiDjango />, color: "#092E20", url: "https://www.djangoproject.com/" },
       { name: "FastAPI", icon: <SiFastapi />, color: "#009688", url: "https://fastapi.tiangolo.com/" },
-      { name: "Electron", icon: <SiElectron />, color: "#47848F", url: "https://www.electronjs.org/" },
       
     ]
   },
@@ -71,7 +70,6 @@ export const SKILLS_DATA: SkillCategory[] = [
       { name: "Arduino", icon: <SiArduino />, color: "#00979D", url: "https://www.arduino.cc/" },
       { name: "Raspberry Pi", icon: <SiRaspberrypi />, color: "#C51A4A", url: "https://www.raspberrypi.org/" },
       { name: "Expo", icon: <SiExpo />, color: "#000020", url: "https://expo.dev/" },
-      { name: "Unity", icon: <FaUnity />, color: "#FFFFFF", url: "https://unity.com/" },
       { name: "Godot", icon: <SiGodotengine />, color: "#4D90C1", url: "https://godotengine.org/" },
     ]
   }
