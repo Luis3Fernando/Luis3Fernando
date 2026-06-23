@@ -36,10 +36,10 @@ export interface ExperienceItem {
 export const EXPERIENCES: ExperienceItem[] = [
   {
     id: 1,
-    role: "Programador Full Stack",
+    role: "Analista Programador Full Stack",
     company: "CODIDEEP E.I.R.L.",
     companyUrl: "https://codideep.com/",
-    date: "Ago 2025 - Abr 2026",
+    date: "Ago 2025 - May 2026",
     location: "Abancay, Apurímac",
     description:
       "Implementé mejoras críticas en el sistema de facturación electrónica utilizando PHP y JavaScript, y optimizando la generación de comprobantes para impresión con NodeJs. Realicé análisis y mantenimiento de sistemas, Java y MySQL, integrando lógica de negocio compleja y optimizando consultas para mejorar el rendimiento del servidor.",
