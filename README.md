@@ -20,9 +20,8 @@
   <a href="https://github.com/alsiam"><img src="https://readme-typing-svg.herokuapp.com/?lines=Computer%20and%20Systems%20Engineer;Software%20Engineer;Programmer;Full%20Stack%20Developer;Backend%20Developer;Frontend%20Developer;Android%20Developer;DevOps%20Engineer;Machine%20Learning%20Developer;Internet%20of%20Things%20Developer;Robotics%20Enthusiast;Game%20Developer;Software%20Development;Software%20Architect&center=true&width=500&height=45"></a>
 </p>
 
-
 <p align="center">
-     🎓 University graduate passionate about 🎶 music, 🌌 astronomy, 🔌 electronics, 📐 mathematics, and 💻 programming.
+      🎓 University graduate passionate about 🎶 music, 🌌 astronomy, 🔌 electronics, 📐 mathematics, and 💻 programming.
 🚀 Founder of Sysari, a small but ambitious startup focused on building innovative tech solutions with real-world impact.
 My goal is to create and innovate for a new world—combining multidisciplinary knowledge to develop meaningful projects that make a difference.       
 </p>
@@ -32,16 +31,16 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 ### <div align="center">Social</div>  
 <div align="center">
 <a href="https://github.com/Luis3Fernando" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style="margin-bottom: 5px;" />
 </a>
 <a href="https://x.com/@Louis3f3" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" style="margin-bottom: 5px;" />
 </a>
 <a href="https://gitlab.com/@Luis3Fernando" target="_blank">
-<img src=https://img.shields.io/badge/gitlab-330F63.svg?&style=for-the-badge&logo=gitlab&logoColor=white alt=gitlab style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/gitlab-330F63.svg?&style=for-the-badge&logo=gitlab&logoColor=white" alt="gitlab" style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.instagram.com/louis3f3/" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" style="margin-bottom: 5px;" />
 </a>
 </div>  
 
@@ -55,7 +54,6 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 
 <br/>  
 
-
 ### Technologies I know  
 <table align="center" width="100%"><tr><td valign="top" width="25%">
 
@@ -67,12 +65,10 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 <a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
 <a href="https://nestjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nestjs.svg" alt="NestJS" height="50" /></a>  
 <a href="https://www.tailwindcss.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="50" /></a>  
-<a href="https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html#:~:text=The%20Spring%20Expression%20Language%20(SpEL,and%20basic%20string%20templating%20functionality." target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring" height="50" /></a>   
+<a href="https://spring.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring" height="50" /></a>   
 </div>
 
 </td><td valign="top" width="25%">
-
-
 
 ### Languages  
 <div align="center">  
@@ -92,6 +88,7 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 <div align="center">  
 <a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
 <a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" /></a>  
+<a href="https://kubernetes.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" /></a>  
 <a href="https://www.arduino.cc/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/arduino.png" alt="Arduino" height="50" /></a>  
 <a href="https://www.raspberrypi.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/raspberrypi.png" alt="Raspberry Pi" height="50" /></a>    
 <a href="https://www.postgresql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
@@ -107,7 +104,8 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 <a href="https://opencv.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/opencv-icon.svg" alt="OpenCV" height="50" /></a>  
 <a href="https://www.electronjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="50" /></a>
 <a href="https://redux.js.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" /></a> 
-<a href="https://www.android.com/intl/en_in/" target="_blank"><img style="margin: 10px" src="https://skillicons.dev/icons?i=hibernate" alt="Hibernate" height="50" /></a>  
+<a href="https://junit.org/junit5/" target="_blank"><img style="margin: 10px" src="https://skillicons.dev/icons?i=junit" alt="JUnit" height="50" /></a>  
+<a href="https://hibernate.org/" target="_blank"><img style="margin: 10px" src="https://skillicons.dev/icons?i=hibernate" alt="Hibernate" height="50" /></a>  
 <a href="https://www.prisma.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/prisma.png" alt="Prisma" height="50" /></a>  
 <a href="https://unity.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/unity.png" alt="Unity" height="50" /></a>  
 </div>
@@ -116,7 +114,6 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 
 ### Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis3fernando&layout=compact&hide_border=true&theme=transparent&bg_color=00000000" width="40%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=luis3fernando&show_icons=true&count_private=true&hide_border=true&theme=transparent&rank_icon=github" width="40%"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Luis3Fernando&layout=compact&hide_border=true&theme=transparent" width="45%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Luis3Fernando&show_icons=true&hide_border=true&theme=transparent" width="45%"/>
 </p>
-
