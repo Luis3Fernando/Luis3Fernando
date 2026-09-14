@@ -28,6 +28,16 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
 
 <br/>
 
+### Contribution
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luis3Fernando/Luis3Fernando/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luis3Fernando/Luis3Fernando/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Luis3Fernando/Luis3Fernando/output/github-contribution-grid-snake.svg">
+</picture>
+
+<br/>
+
 ### <div align="center">Social</div>  
 <div align="center">
 <a href="https://github.com/Luis3Fernando" target="_blank">
@@ -118,10 +128,3 @@ My goal is to create and innovate for a new world—combining multidisciplinary 
   <img src="https://github-readme-stats-fast.vercel.app/api?username=Luis3Fernando&show_icons=true&hide_border=true&theme=transparent" width="45%"/>
 </p>
 
-### Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luis3Fernando/Luis3Fernando/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luis3Fernando/Luis3Fernando/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Luis3Fernando/Luis3Fernando/output/github-contribution-grid-snake.svg">
-</picture>
